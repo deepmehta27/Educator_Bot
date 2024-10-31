@@ -15,6 +15,20 @@ This chatbot serves as a digital educator, responding to user queries interactiv
 - **Error Handling**: Manages API errors gracefully with user-friendly messages.
 
 ## 🛠️ Installation
+- pip install -r requirements.txt
+
+### Create the virtual environment
+python -m venv myenv
+
+## Activate the virtual environment
+## On Windows
+myenv\Scripts\activate
+
+## On macOS/Linux
+source myenv/bin/activate
+
+## To start the chatbot, run the following command:
+- streamlit run chatbot_app.py
 
 ### Prerequisites
 
@@ -25,4 +39,6 @@ This chatbot serves as a digital educator, responding to user queries interactiv
 
 ```bash
 git clone https://github.com/deepmehta27/Educator_Bot.git
-cd 
+```
+
+
